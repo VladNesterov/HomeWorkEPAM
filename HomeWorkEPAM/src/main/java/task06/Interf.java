@@ -1,6 +1,8 @@
 package task06;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 @FunctionalInterface
 interface MatchOperate {

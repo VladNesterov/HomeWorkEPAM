@@ -1,5 +1,3 @@
-package task10;
-
 public class Basket {
 //       for (Map.Entry<String, Object> entry : bestScore_and_ArrayScore.entrySet()) {
 //            System.out.println(entry.getKey() + "= " + entry.getValue());

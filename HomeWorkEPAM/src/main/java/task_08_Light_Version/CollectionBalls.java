@@ -1,7 +1,7 @@
 package task_08_Light_Version;
 
 
-import java.util.*;
+import java.util.TreeSet;
 
 class CollectionBalls {
     static TreeSet<BallsName> createBallsBad() {

@@ -15,7 +15,7 @@ public class Map {
         task04.CatColliz myrzik3 = new CatColliz(57, "Myrzik3", "happy");
 
         System.out.println("Сollision hash code");
-        HashMap<task04.Cat, String> lose = new HashMap<>();
+        HashMap<Cat, String> lose = new HashMap<>();
         lose.put(barsik, "Barsik");
         lose.put(barsik1, "Barsik1");
         lose.put(barsik2, "Barsik2");

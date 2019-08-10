@@ -1,6 +1,8 @@
 package task09;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 class  DataCyclicBarrier {
 

@@ -1,7 +1,5 @@
 package task11;
 
-import task08.Main;
-
 public class RunAtm {
     public static void main(String[] args) {
         NewThread newThread=new NewThread();

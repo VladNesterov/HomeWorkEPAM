@@ -1,6 +1,5 @@
 package task11;
 
-import java.io.IOError;
 import java.util.Scanner;
 
 class MainActions {

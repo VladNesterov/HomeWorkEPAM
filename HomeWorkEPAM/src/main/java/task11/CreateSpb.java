@@ -14,6 +14,6 @@ public class CreateSpb implements Action {
 
     @Override
     public void checkBalance() {
-        System.out.println("Yor money "+DataPeople.getDataMoneyAccount());
+        System.out.println("Yor money "+ DataPeople.getDataMoneyAccount());
     }
 }
