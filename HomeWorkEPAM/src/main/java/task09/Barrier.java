@@ -1,6 +1,6 @@
 package task09;
 
-public class Barrier extends HorseFactory implements Runnable {
+public class Barrier implements Runnable {
   @Override
   public void run() {
     System.out.println("barrier reached");
