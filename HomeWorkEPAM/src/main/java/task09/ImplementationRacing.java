@@ -3,7 +3,7 @@ package task09;
 import java.util.Scanner;
 import java.util.concurrent.CyclicBarrier;
 
-class RealizationRacing {
+class ImplementationRacing {
   void run() {
     //read
     try {
@@ -15,9 +15,8 @@ class RealizationRacing {
       if (money < 0) {
         throw new ClassCastException();
       }
-      CreateHorse createHorse = new CreateHorse();
       for (int i = 0; i < 5; i++) {
-        System.out.println(createHorse.factoryHorse().get(i).toString());
+        System.out.println(HorseFactory.createHorse().get(i).toString());
       }
       while (wantToPlay.equals("yes") & (money > 0)) {
         //    wager - Ставка
@@ -32,7 +31,7 @@ class RealizationRacing {
         CyclicBarrier barrier = new CyclicBarrier(5, new Barrier());
         for (int i = 0; i < 6; i++) {
           // Create Thread with constructor in class Horse CyclicBarrier 69 line
-          new Horse(barrier, createHorse.factoryHorse().get(i).getName());
+          new Horse(barrier, HorseFactory.createHorse().get(i).getName());
         }
         int max = 0;
         int winnerHorseID = 0;
